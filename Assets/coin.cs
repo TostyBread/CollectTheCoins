@@ -7,6 +7,7 @@ public class coin : MonoBehaviour
     public int CoinsAmount = 10;
     public AudioSource _AudioSource;
     public GameObject CoinCollectedAudio;
+    public GameObject Effects;
 
     public Collider2D _Collider2D;
 
