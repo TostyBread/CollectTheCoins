@@ -25,12 +25,12 @@ public class coin : MonoBehaviour
 
     private void OnMouseOver()
     {
-
+        //will sound the coin
         if (CoinCollectedAudio != null)
         {
            GameObject.Instantiate(CoinCollectedAudio, transform.position, Quaternion.identity);
         }
-
+        //when coin collected
         if (Effects != null)
         {
             GameObject.Instantiate(Effects, transform.position, Quaternion.identity);
@@ -43,6 +43,7 @@ public class coin : MonoBehaviour
             _spawner.AddCoins(CoinsAmount);
         }
 
+        //After collect coins
         Destroy(this.gameObject);
         
     }

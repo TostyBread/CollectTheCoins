@@ -172,6 +172,10 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 7649385676176576623, guid: dc7d80d5e8d1c8a4994d186462f5f4e1, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 78b943d2aa7a4964ba295229a0c31cbd, type: 3}
     m_RemovedComponents:
     - {fileID: 3744533281873424333, guid: dc7d80d5e8d1c8a4994d186462f5f4e1, type: 3}
     m_RemovedGameObjects: []
