@@ -5,10 +5,12 @@ using UnityEngine;
 public class coin : MonoBehaviour
 {
     public int CoinsAmount = 10;
-    public AudioSource _AudioSource;
     public GameObject CoinCollectedAudio;
     public GameObject Effects;
 
+
+    public float DespawnInterval;
+    private float despawnTimer;
     public Collider2D _Collider2D;
 
     private SpawnerCoin _spawner;
@@ -17,10 +19,8 @@ public class coin : MonoBehaviour
     private void Start()
     {
         _Collider2D = GetComponent<Collider2D>();
-
+        despawnTimer = DespawnInterval;
         _spawner = FindObjectOfType<SpawnerCoin>();
-
-        _AudioSource = GetComponent<AudioSource>();
     }
 
     private void OnMouseOver()
@@ -51,6 +51,13 @@ public class coin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (despawnTimer > 0)
+        {
+            despawnTimer -= Time.deltaTime;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

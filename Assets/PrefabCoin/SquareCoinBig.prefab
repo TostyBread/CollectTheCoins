@@ -110,12 +110,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6185938590211634931, guid: dc7d80d5e8d1c8a4994d186462f5f4e1, type: 3}
       propertyPath: m_Name
-      value: SquareCoinBig Variant
+      value: SquareCoinBig
       objectReference: {fileID: 0}
     - target: {fileID: 6635068975808852332, guid: dc7d80d5e8d1c8a4994d186462f5f4e1, type: 3}
       propertyPath: CoinsAmount
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6635068975808852332, guid: dc7d80d5e8d1c8a4994d186462f5f4e1, type: 3}
+      propertyPath: CoinCollectedAudio
+      value: 
+      objectReference: {fileID: 2562328434371872111, guid: 8d6d01822f03f2f44a2b986d925d3e24, type: 3}
     - target: {fileID: 7361005704541260110, guid: dc7d80d5e8d1c8a4994d186462f5f4e1, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.327
