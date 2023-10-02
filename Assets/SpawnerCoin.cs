@@ -38,7 +38,7 @@ public class SpawnerCoin : MonoBehaviour
 
         else
         {
-            float rand = Random.Range(MinX, MaxX);
+            float rand = Random.Range(MinX, MaxX);//Coins spawn at random X-axis
 
             Vector3 randomPos = new Vector3(rand, 0f, 0f);
 
@@ -46,7 +46,7 @@ public class SpawnerCoin : MonoBehaviour
             {
                 GameObject.Instantiate(PrefabCoin, position:transform.position + randomPos, transform.rotation);
             }
-            Debug.Log(message:"Times up, should spawn coin");
+            //Debug.Log(message:"Times up, should spawn coin");
             spawnTimer = SpawnInterval;
         }
     }
@@ -56,7 +56,7 @@ public class SpawnerCoin : MonoBehaviour
         CoinsCollected += amount;
         Debug.Log(message:"Collected coins " + CoinsCollected);
 
-        if(Text != null)
+        if(Text != null)//Coin counter
         {
             Text.text = CoinsCollected.ToString();
         }

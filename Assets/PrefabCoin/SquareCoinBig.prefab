@@ -174,7 +174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7570858840016009301, guid: dc7d80d5e8d1c8a4994d186462f5f4e1, type: 3}
       propertyPath: m_GravityScale
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7649385676176576623, guid: dc7d80d5e8d1c8a4994d186462f5f4e1, type: 3}
       propertyPath: m_audioClip
