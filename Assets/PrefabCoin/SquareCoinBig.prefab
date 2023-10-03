@@ -122,15 +122,15 @@ PrefabInstance:
       objectReference: {fileID: 2562328434371872111, guid: 8d6d01822f03f2f44a2b986d925d3e24, type: 3}
     - target: {fileID: 7361005704541260110, guid: dc7d80d5e8d1c8a4994d186462f5f4e1, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.327
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 7361005704541260110, guid: dc7d80d5e8d1c8a4994d186462f5f4e1, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.327
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 7361005704541260110, guid: dc7d80d5e8d1c8a4994d186462f5f4e1, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.327
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 7361005704541260110, guid: dc7d80d5e8d1c8a4994d186462f5f4e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -174,7 +174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7570858840016009301, guid: dc7d80d5e8d1c8a4994d186462f5f4e1, type: 3}
       propertyPath: m_GravityScale
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7649385676176576623, guid: dc7d80d5e8d1c8a4994d186462f5f4e1, type: 3}
       propertyPath: m_audioClip

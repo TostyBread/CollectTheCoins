@@ -7,11 +7,11 @@ public class SpawnerCoin : MonoBehaviour
 {
 
     public GameObject PrefabCoin;
-
+    //coin spawn rate
     public float DurationLeft = 60f;
 
     public float SpawnInterval = 1f;
-
+    //coin spawning x-axis range
     public float MinX = -1f;
     public float MaxX = 1f;
 
@@ -54,7 +54,7 @@ public class SpawnerCoin : MonoBehaviour
     public void AddCoins(float amount)
     {
         CoinsCollected += amount;
-        Debug.Log(message:"Collected coins " + CoinsCollected);
+        //Debug.Log(message:"Collected coins " + CoinsCollected);
 
         if(Text != null)//Coin counter
         {

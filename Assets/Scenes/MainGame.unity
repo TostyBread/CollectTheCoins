@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 28137218}
   - component: {fileID: 28137217}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: TextScore (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -483,8 +483,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrefabCoin: {fileID: 6185938590211634931, guid: dc7d80d5e8d1c8a4994d186462f5f4e1, type: 3}
-  DurationLeft: 60
-  SpawnInterval: 0.6
+  DurationLeft: 2
+  SpawnInterval: 0.4
   MinX: -10
   MaxX: 10
   CoinsCollected: 0
@@ -517,7 +517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrefabCoin: {fileID: 3354122468819374053, guid: f64147b10a4aa484c808242295d51ee5, type: 3}
-  DurationLeft: 60
+  DurationLeft: 2
   SpawnInterval: 4
   MinX: -10
   MaxX: 10
@@ -536,7 +536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrefabCoin: {fileID: 3962685159460985645, guid: 62a524088c09d61469cdcf56b491f4e9, type: 3}
-  DurationLeft: 60
+  DurationLeft: 2
   SpawnInterval: 2
   MinX: -10
   MaxX: 10
