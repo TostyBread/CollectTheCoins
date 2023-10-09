@@ -15,7 +15,7 @@ public class SpawnerCoin : MonoBehaviour
     public float MinX = -1f;
     public float MaxX = 1f;
 
-    public float CoinsCollected = 0f;
+    public static float CoinsCollected = 0f;
     public TMP_Text Text;
 
     private float randomX;

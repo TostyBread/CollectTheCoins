@@ -487,7 +487,6 @@ MonoBehaviour:
   SpawnInterval: 0.4
   MinX: -10
   MaxX: 10
-  CoinsCollected: 0
   Text: {fileID: 28137217}
 --- !u!4 &605451092
 Transform:
@@ -521,7 +520,6 @@ MonoBehaviour:
   SpawnInterval: 4
   MinX: -10
   MaxX: 10
-  CoinsCollected: 0
   Text: {fileID: 28137217}
 --- !u!114 &605451094
 MonoBehaviour:
@@ -540,7 +538,6 @@ MonoBehaviour:
   SpawnInterval: 2
   MinX: -10
   MaxX: 10
-  CoinsCollected: 0
   Text: {fileID: 28137217}
 --- !u!1 &1461073950
 GameObject:
